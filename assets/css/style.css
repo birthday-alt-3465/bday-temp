@@ -22,7 +22,9 @@ body, html {
     height: auto;
     z-index: 10;
 }
-
+.fish-link {
+    display: inline-block;
+}
 @media (max-width: 768px) {
     .fishy {
         width: 70px;
