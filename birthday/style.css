@@ -49,25 +49,6 @@ body {
 }
 
 
-.spoiler {
-  position:relative;
-  
-  bottom: 0;
-  left: 10px;
-  background: rgba(255, 255, 255, 0.3);
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-#revealedText {
-  display: none;
-  color: #000000;
-  margin: 5px;
-  bottom: 10px;
-  left: 10px;
-}
-
 
 .glass-panel p {
   text-align: left;
@@ -76,4 +57,12 @@ body {
   color: #ffffff;
 }
 
+#audioPlayer {
+  position: relative;
+  top: -40px;
+}
 
+#madeBy {
+  position: relative;
+  top: -20px;
+}
