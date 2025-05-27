@@ -5,7 +5,6 @@ body {
   display: flex;
   flex-direction: column; /* Make the container a vertical flex container */
   align-items: center;
-  height: 100vh;
   margin: 0;
   gap: 20px; /* Add vertical spacing between .glass-panel elements */
 }
