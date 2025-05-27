@@ -42,7 +42,7 @@ body {
   padding: 0;
   outline: none;
   font-size: 14px;
-  position: middle;
+  position: relative;
   bottom: 20px;
   right: 10px;
 }
