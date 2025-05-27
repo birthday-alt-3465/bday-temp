@@ -76,7 +76,7 @@ body {
 
 #audioPlayer {
   position: relative;
-  top: -40px;
+  margin-top: 20px;
 }
 
 #madeBy {
