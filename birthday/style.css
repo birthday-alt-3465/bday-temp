@@ -57,7 +57,9 @@ body {
   text-decoration: none;
 }
 
-
+.made-by {
+  color: #ffffff
+}
 
 .spoiler {
   position:relative;
