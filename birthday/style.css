@@ -1,0 +1,88 @@
+body {
+  background: url('bg.jpg') no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column; /* Make the container a vertical flex container */
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  gap: 20px; /* Add vertical spacing between .glass-panel elements */
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: 150px;
+  max-width: 800px;
+}
+
+.glass-panel h1 {
+  font-size: 24px;
+}
+
+.glass-panel h2 {
+  font-size: 15px;
+  text-align: left;
+}
+
+.text-button {
+  border: none;
+  background: none;
+  color: #000000;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+  font-size: 14px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.rev-button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  color: #333;
+  text-decoration: underline;
+}
+
+.rev-button:hover {
+  text-decoration: none;
+}
+
+
+
+.spoiler {
+  position:relative;
+  
+  bottom: 0;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#revealedText {
+  display: none;
+  color: #000000;
+  margin: 5px;
+  bottom: 10px;
+  left: 10px;
+}
+
+
+.glass-panel p {
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 1px;
+}
+
+
