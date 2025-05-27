@@ -5,11 +5,9 @@ body {
   display: flex;
   flex-direction: column; /* Make the container a vertical flex container */
   align-items: center;
+  height: 100vh;
   margin: 0;
   gap: 20px; /* Add vertical spacing between .glass-panel elements */
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: normal;
-  letter-spacing: 0.5px;
 }
 
 .glass-panel {
@@ -24,11 +22,9 @@ body {
 
 .glass-panel h1 {
   font-size: 24px;
-  color: #ffffff;
 }
 
 .glass-panel h2 {
-  color: #ffffff; 
   font-size: 15px;
   text-align: left;
 }
@@ -36,16 +32,32 @@ body {
 .text-button {
   border: none;
   background: none;
-  color: #ffffff !important;
+  color: #000000;
   font: inherit;
   cursor: pointer;
   padding: 0;
   outline: none;
   font-size: 14px;
-  position: middle;
+  position: fixed;
   bottom: 10px;
   right: 10px;
 }
+
+.rev-button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  color: #333;
+  text-decoration: underline;
+}
+
+.rev-button:hover {
+  text-decoration: none;
+}
+
+
 
 .spoiler {
   position:relative;
@@ -71,11 +83,6 @@ body {
   text-align: left;
   font-size: 18px;
   margin-bottom: 1px;
-  color: #ffffff;
 }
 
 
-#madeBy {
-  position: relative;
-  top: -20px;
-}
