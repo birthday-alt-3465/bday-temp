@@ -76,6 +76,8 @@ body {
 
 #audioPlayer {
   margin-top: -40px;
+  bottom: 40px;
+  position: relative;
 }
 
 
