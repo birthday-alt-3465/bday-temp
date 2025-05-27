@@ -25,9 +25,11 @@ body {
 
 .glass-panel h1 {
   font-size: 24px;
+  color: #ffffff;
 }
 
 .glass-panel h2 {
+  color: #ffffff; 
   font-size: 15px;
   text-align: left;
 }
