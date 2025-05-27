@@ -74,8 +74,11 @@ body {
   color: #ffffff;
 }
 
+#audioPlayer {
+  margin-top: 20px;
+}
+
 
 #madeBy {
-  position: relative;
-  top: -20px;
+  margin-top: -10px;
 }
